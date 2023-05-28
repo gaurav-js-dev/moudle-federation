@@ -6,12 +6,12 @@ const devConfig = {
   mode: "development",
   devServer: {
     port: 8081,
-    historyApiFallBack: {
+    historyApiFallback: {
       index: "index.html",
     },
   },
   plugins: [
-    newHtmlWebpackPlugin({
+    new HtmlWebpackPlugin({
       template: "./public/index.html",
     }),
   ],
