@@ -14,10 +14,11 @@
 
 ##### Dashboard page /dashboard shows a dummy dashboard page to logged in users only.
 
-#### Usage
+### Usage
 
 #### This project uses npm. First you have to run each micro frontend app.After cloning this repo cd into each app i.e cd packages/marketing then run following command `npm run start` this will serve each microfront end app on it's own dedicated port. To use main container with all apps together browse to localhost:8080
-Note : Auth part is just for demonstration of sub-module. To login just click on sign in button with any text there is no validation required.
+
+Note : Auth part is just for demonstration of sub-module. To login or sign up just click on sign in or sign up button with any text there is no validation required. Without login users cannot access the /dashboard page it will redirect to default root landing page.
 
 - Container on localhost:8080
 - Marketing on localhost:8081
